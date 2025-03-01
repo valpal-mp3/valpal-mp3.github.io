@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: tan;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(206, 98, 52);
+}
+nav a{
+    font-family:fantasy;
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+#purpleRainbow-ball{
+    background-color: purple;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    animation-name: ballAnimationAndTranslate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ballAnimationAndTranslate{
+    
+    0%{
+        background-color: palegoldenrod;
+        transform: translate(-30vw, 0vh);
+    } 
+    25%{
+        background-color: palegreen;
+     }
+    50%{
+        background-color: paleturquoise
+    }
+    100%{
+        background-color: palevioletred;
+        transform: translate(30vw, 0vh);
+    }
+}
+
+#stardewText{
+    width: 500px;
+    height: 105px;
+    position: absolute;
+    background-color: white;
+    border-color: black;
+    border-style: dotted;
+    border-width: 1cap;
+    top: 23vw;
+    animation-name: textAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textAnimation{
+    
+    0%{
+        background-color: purple;
+    } 
+    25%{
+        background-color: red;
+     }
+    50%{
+        background-color: darkgreen
+    }
+    100%{
+        background-color: darkorange;
+    }
+}
+
+#stardewText p{
+    position: absolute;
+    left: 30vw;
+    bottom:-1.5vw;
+    color: purple;
+    font-family:fantasy;
+    font-size:large;
+    animation-name: textTransition;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes textTransition{
+    
+    0%{
+        transform: translate(-30vw, 0vh);
+    } 
+    100%{
+        transform: translate(-3vw, 0vh);
+    }
+}
