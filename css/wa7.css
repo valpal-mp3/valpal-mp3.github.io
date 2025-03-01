@@ -100,10 +100,10 @@ img{
 
 @keyframes textTransition{
     
-    0%{
+    to{
         transform: translate(-30vw, 0vh);
     } 
-    100%{
+    from{
         transform: translate(-3vw, 0vh);
     }
 }
