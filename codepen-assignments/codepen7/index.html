@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Chord Progression Builder Multiple Choice #CodePenChallenge: Either Or</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div class="corner-decoration top-left"></div>
+	<div class="corner-decoration top-right"></div>
+	<div class="corner-decoration bottom-left"></div>
+	<div class="corner-decoration bottom-right"></div>
+
+	<h1 class="title">Really Bad Chord Progression Builder!</h1>
+
+	<div class="progression-display" id="progressionDisplay">
+		<span class="empty-message">Select up to 4 chords to build your progression</span>
+	</div>
+
+	<div class="mood-description" id="moodDescription"></div>
+
+	<div class="bpm-control">
+		<label for="bpmRange">Tempo: <span id="bpmValue" class="bpm-value">120</span> BPM</label>
+		<input type="range" id="bpmRange" class="bpm-slider" min="30" max="330" value="120" step="1">
+	</div>
+
+	<div class="chord-section">
+		<h3 class="section-title">Major Chords</h3>
+		<div class="chord-buttons">
+			<button class="chord-btn" data-chord="I">I</button>
+			<button class="chord-btn" data-chord="IV">IV</button>
+			<button class="chord-btn" data-chord="V">V</button>
+		</div>
+	</div>
+
+	<div class="chord-section">
+		<h3 class="section-title">Minor Chords</h3>
+		<div class="chord-buttons">
+			<button class="chord-btn" data-chord="ii">ii</button>
+			<button class="chord-btn" data-chord="iii">iii</button>
+			<button class="chord-btn" data-chord="vi">vi</button>
+		</div>
+	</div>
+
+	<div class="chord-section">
+		<h3 class="section-title">Diminished Chords</h3>
+		<div class="chord-buttons">
+			<button class="chord-btn" data-chord="vii°">vii°</button>
+		</div>
+	</div>
+
+	<div class="controls">
+		<button class="control-btn play-btn" id="playBtn" disabled>
+			▶ Play
+		</button>
+		<button class="control-btn reset-btn" id="resetBtn">
+			↺ Reset
+		</button>
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://orcunsipahi.net/coffee.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
