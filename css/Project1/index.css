@@ -1,0 +1,82 @@
+/* Global Styles */
+* {
+    background-color: black;
+    color: white;
+}
+
+/* Border For Text */
+.border {
+    -webkit-text-stroke: 2px rgb(200, 136, 10);
+}
+
+/* Header 1 */
+h1 {
+    background-color: goldenrod;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+/* Header 2 */
+h2 {
+    background-color: goldenrod;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Header 3 */
+h2 {
+
+}
+
+/* Concert Boxes/Containers */
+.concertBox {
+    border-style: double;
+    border-color: rgb(35, 19, 75);
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Style of Boxes/Containers */
+.concertBoxStyle {
+    display: flex;
+    flex: wrap;
+}
+
+/* General Style of Concert Info */
+.concertInfo {
+    display: flexbox;
+    flex-direction: column;
+    margin: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+/* Style of Concert Date */
+.concertDate {
+
+}
+
+/* Style of Concert Conductor */
+.concertConductor {
+
+}
+
+/* Style of Concert Repertoire */
+.concertRepertoire {
+
+}
+
+/* Style of Concert Location */
+.concertLocation {
+
+}
+
+/* Style of Concert Description */
+.concertDescription {
+
+}
