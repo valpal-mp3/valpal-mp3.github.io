@@ -178,8 +178,8 @@
 
 /* Responsive to Small Screens */
 @media screen and (max-width: 400px) {
-   /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
-   html {
+    /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
+    html {
         scroll-behavior: smooth;    
         scroll-padding-top: 60px;
     }
@@ -298,15 +298,17 @@
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
     .concertDate, .concertConductor, .concertRepertoire {
-        font-size: large;
-        color: white;
-        line-height: 200%;
-        font-family: Verdana, Geneva, Tahoma;
+        font-size: 20px;
+        line-height: 150%;
+        font-weight: bolder;
+        -webkit-text-stroke: 1px rgb(200, 136, 10);
     }
 
     /* Style of Concert Location */
     .concertLocation {
         font-style: italic;
+        font-size: 20px;
+        -webkit-text-stroke: 1px rgb(200, 136, 10);
     }
 
     /* Style of Concert Description */
