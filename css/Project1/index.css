@@ -2,7 +2,7 @@
 @media screen and (min-width: 400px) {
     /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
     html {
-        scroll-behavior: smooth;
+        scroll-behavior: smooth;    
         scroll-padding-top: 60px;
     }
 
@@ -45,7 +45,7 @@
         align-items: center;
         box-shadow: white 0px 5px 15px 0px;
     }
-    
+
     /* Style the links inside the navigation bar */
     nav a {
         width: 100%;
@@ -62,13 +62,13 @@
         font-family: Verdana, Geneva, Tahoma;
         text-shadow: 1px 1px 10px white;
     }
-    
+
     /* Change the color of links on hover */
     nav a:hover {
         background-color: #ddd;
         color: black;
     }
-    
+
     /* Add a color to the active/current link */
     nav a:active {
         background-color: darkgoldenrod;
@@ -102,7 +102,7 @@
         font-size: 30px;
         text-align: center;
     }
-    
+
     /* Concert Boxes/Containers */
     .concertBox {
         border-style: double;
@@ -120,15 +120,17 @@
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
     .concertDate, .concertConductor, .concertRepertoire {
-        font-size: large;
-        color: white;
-        line-height: 200%;
-        font-family: Verdana, Geneva, Tahoma;
+        font-size: 20px;
+        line-height: 150%;
+        font-weight: bolder;
+        -webkit-text-stroke: 1px rgb(200, 136, 10);
     }
 
     /* Style of Concert Location */
     .concertLocation {
         font-style: italic;
+        font-size: 20px;
+        -webkit-text-stroke: 1px rgb(200, 136, 10);
     }
 
     /* Style of Concert Description */
