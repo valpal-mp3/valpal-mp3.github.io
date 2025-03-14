@@ -1,82 +1,350 @@
-/* Global Styles */
-* {
-    background-color: black;
-    color: white;
+/* Responsive to Larger Screens */
+@media screen and (min-width: 400px) {
+    /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 60px;
+    }
+
+    /* Body Styles */
+    body {
+        background-image: url(../Project1/stars-background.jpg);
+        background-attachment: fixed;
+        background-blend-mode: lighten;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Border For Text */
+    .border {
+        -webkit-text-stroke: 2px rgb(200, 136, 10);
+    }
+
+    /* Horizontal Line */
+    hr {
+        border: none;
+        height: 2px;
+        background-color: goldenrod;
+        width: 80%;
+    }
+
+    /* Nav Bar */
+    nav {
+        background-color: goldenrod;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: white 0px 5px 15px 0px;
+    }
+    
+    /* Style the links inside the navigation bar */
+    nav a {
+        width: 100%;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        text-align: center;
+        display: inline-block;
+        list-style: none;
+        justify-content: flex-start;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma;
+        text-shadow: 1px 1px 10px white;
+    }
+    
+    /* Change the color of links on hover */
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    nav a:active {
+        background-color: darkgoldenrod;
+        color: black;
+    }
+
+    /* Header 1 */
+    h1 {
+        color: goldenrod;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        font-family: Verdana, Geneva, Tahoma;
+        font-weight: bolder;
+        font-style: normal;
+        text-align: center;
+    }
+
+    /* Header 2 */
+    h2 {
+        color: goldenrod;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        font-family: Verdana, Geneva, Tahoma;
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+    }
+
+    /* Header 3 */
+    h3 {
+        text-shadow: 1px 1px 10px goldenrod, 1px 1px 10px goldenrod;
+        font-family: Verdana, Geneva, Tahoma;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    /* Concert Boxes/Containers */
+    .concertBox {
+        border-style: double;
+        border-color: goldenrod;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    /* General Style of Concert Info */
+    .concertInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
+    .concertDate, .concertConductor, .concertRepertoire {
+        font-size: large;
+        color: white;
+        line-height: 200%;
+        font-family: Verdana, Geneva, Tahoma;
+    }
+
+    /* Style of Concert Location */
+    .concertLocation {
+        font-style: italic;
+    }
+
+    /* Style of Concert Description */
+    .concertDescription {
+        display: flow-root;
+        flex-direction: column;
+        margin: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 170%;
+    }
+
+    /* Footer styling */
+    .footer {
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+    }
+
+    .footer p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footerLinks {
+        margin-top: 10px;
+    }
+
+    .footerLinks a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    .footerLinks a:hover {
+        text-decoration: underline;
+    }
 }
 
-/* Border For Text */
-.border {
-    -webkit-text-stroke: 2px rgb(200, 136, 10);
-}
 
-/* Header 1 */
-h1 {
-    background-color: goldenrod;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-}
+/* Responsive to Small Screens */
+@media screen and (max-width: 400px) {
+   /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
+   html {
+        scroll-behavior: smooth;    
+        scroll-padding-top: 60px;
+    }
 
-/* Header 2 */
-h2 {
-    background-color: goldenrod;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-style: italic;
-}
+    /* Body Styles */
+    body {
+        background-image: url(../Project1/stars-background.jpg);
+        background-attachment: fixed;
+        background-blend-mode: lighten;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
-/* Header 3 */
-h2 {
+    /* Border For Text */
+    .border {
+        -webkit-text-stroke: 2px rgb(200, 136, 10);
+    }
 
-}
+    /* Horizontal Line */
+    hr {
+        border: none;
+        height: 2px;
+        background-color: goldenrod;
+        width: 80%;
+    }
 
-/* Concert Boxes/Containers */
-.concertBox {
-    border-style: double;
-    border-color: rgb(35, 19, 75);
-    margin: 20px;
-    padding: 10px;
-}
+    /* Nav Bar */
+    nav {
+        background-color: goldenrod;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: white 0px 5px 15px 0px;
+    }
 
-/* Style of Boxes/Containers */
-.concertBoxStyle {
-    display: flex;
-    flex: wrap;
-}
+    /* Style the links inside the navigation bar */
+    nav a {
+        width: 100%;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        text-align: center;
+        display: inline-block;
+        list-style: none;
+        justify-content: flex-start;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma;
+        text-shadow: 1px 1px 10px white;
+    }
 
-/* General Style of Concert Info */
-.concertInfo {
-    display: flexbox;
-    flex-direction: column;
-    margin: 5px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-}
+    /* Change the color of links on hover */
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
 
-/* Style of Concert Date */
-.concertDate {
+    /* Add a color to the active/current link */
+    nav a:active {
+        background-color: darkgoldenrod;
+        color: black;
+    }
 
-}
+    /* Header 1 */
+    h1 {
+        color: goldenrod;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        font-family: Verdana, Geneva, Tahoma;
+        font-weight: bolder;
+        font-style: normal;
+        text-align: center;
+    }
 
-/* Style of Concert Conductor */
-.concertConductor {
+    /* Header 2 */
+    h2 {
+        color: goldenrod;
+        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        font-family: Verdana, Geneva, Tahoma;
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+    }
 
-}
+    /* Header 3 */
+    h3 {
+        text-shadow: 1px 1px 10px goldenrod, 1px 1px 10px goldenrod;
+        font-family: Verdana, Geneva, Tahoma;
+        font-size: 30px;
+        text-align: center;
+    }
 
-/* Style of Concert Repertoire */
-.concertRepertoire {
+    /* Concert Boxes/Containers */
+    .concertBox {
+        border-style: double;
+        border-color: goldenrod;
+        margin: 20px;
+        padding: 10px;
+    }
 
-}
+    /* General Style of Concert Info */
+    .concertInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
 
-/* Style of Concert Location */
-.concertLocation {
+    /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
+    .concertDate, .concertConductor, .concertRepertoire {
+        font-size: large;
+        color: white;
+        line-height: 200%;
+        font-family: Verdana, Geneva, Tahoma;
+    }
 
-}
+    /* Style of Concert Location */
+    .concertLocation {
+        font-style: italic;
+    }
 
-/* Style of Concert Description */
-.concertDescription {
+    /* Style of Concert Description */
+    .concertDescription {
+        display: flow-root;
+        flex-direction: column;
+        margin: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 170%;
+    }
 
+    /* Footer styling */
+    .footer {
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+    }
+
+    .footer p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .footerLinks {
+        margin-top: 10px;
+    }
+
+    .footerLinks a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 14px;
+    }
+
+    .footerLinks a:hover {
+        text-decoration: underline;
+    }
 }
