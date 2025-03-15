@@ -217,7 +217,7 @@
         left: 0;
         right: 0;
         width: 100%;
-        height: 30px;
+        height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -226,11 +226,11 @@
 
     /* Style the links inside the navigation bar */
     nav a {
-        width: 80%;
+        width: 100%;
         color: black;
-        padding: 10px 12px;
+        padding: 14px 16px;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 17px;
         text-align: center;
         display: inline-block;
         list-style: none;
@@ -283,11 +283,9 @@
 
     /* Concert Boxes/Containers */
     .concertBox {
-        justify-content: center;
-        align-items: center;
         border-style: double;
         border-color: goldenrod;
-        margin: 0px;
+        margin: 20px;
         padding: 10px;
     }
 
@@ -296,7 +294,6 @@
         display: flex;
         flex-direction: column;
         margin: 5px;
-        text-align: center;
     }
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
@@ -305,7 +302,6 @@
         line-height: 150%;
         font-weight: bolder;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
-        text-align: center;
     }
 
     /* Style of Concert Location */
@@ -313,7 +309,6 @@
         font-style: italic;
         font-size: 20px;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
-        text-align: center;
     }
 
     /* Style of Concert Description */
@@ -321,12 +316,11 @@
         display: flow-root;
         flex-direction: column;
         margin: 10px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 15px;
-        padding-right: 15px;
-        line-height: 150%;
-        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 170%;
     }
 
     /* Footer styling */
