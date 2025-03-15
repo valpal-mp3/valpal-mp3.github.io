@@ -228,7 +228,7 @@
         left: 0;
         right: 0;
         width: 100%;
-        height: 20px;
+        height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -239,11 +239,11 @@
     nav a {
         width: 100%;
         color: black;
-        padding: 14px 16px;
+        padding: 10px 16px;
         text-decoration: none;
         font-size: 6px;
         text-align: center;
-        display: inline-flexbox;
+        display: flex;
         list-style: none;
         justify-content: flex-start;
         transition: background-color 0.3s ease, color 0.3s ease;
@@ -256,7 +256,6 @@
     nav a:hover {
         background-color: #ddd;
         color: black;
-        height: 4px;
     }
 
     /* Add a color to the active/current link */
@@ -314,7 +313,7 @@
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
     .concertDate, .concertConductor, .concertRepertoire {
-        font-size: 10px;
+        font-size: 9.5px;
         line-height: 250%;
         font-weight: bolder;
         -webkit-text-stroke: 0.5px rgb(200, 136, 10);
@@ -323,7 +322,7 @@
     /* Style of Concert Location */
     .concertLocation {
         font-style: italic;
-        font-size: 10px;
+        font-size: 9.5px;
         -webkit-text-stroke: 0.5px rgb(200, 136, 10);
         padding-top: 15px;
         padding-bottom: 20px;
@@ -336,10 +335,10 @@
         margin: 10px;
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
         line-height: 170%;
-        font-size: 10px;
+        font-size: 9.5px;
     }
 
     /* Footer styling */
