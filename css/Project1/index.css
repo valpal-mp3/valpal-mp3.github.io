@@ -309,7 +309,7 @@
     .concertInfo {
         display: flex;
         flex-direction: column;
-        margin: 5px;
+        margin: 0;
     }
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
@@ -318,6 +318,7 @@
         line-height: 250%;
         font-weight: bolder;
         -webkit-text-stroke: 0.5px rgb(200, 136, 10);
+        margin: 0;
     }
 
     /* Style of Concert Location */
@@ -327,6 +328,7 @@
         -webkit-text-stroke: 0.5px rgb(200, 136, 10);
         padding-top: 15px;
         padding-bottom: 20px;
+        margin: 0;
     }
 
     /* Style of Concert Description */
