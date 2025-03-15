@@ -330,7 +330,7 @@
 
     /* Style of Concert Description */
     .concertDescription {
-        display: flow-root;
+        display: flex;
         flex-direction: column;
         margin: 10px;
         padding-top: 20px;
