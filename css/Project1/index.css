@@ -227,8 +227,8 @@
         top: 0;
         left: 0;
         right: 0;
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -319,6 +319,7 @@
         font-weight: bolder;
         -webkit-text-stroke: 0.5px rgb(200, 136, 10);
         margin: 0;
+        padding-top: 15px;
     }
 
     /* Style of Concert Location */
