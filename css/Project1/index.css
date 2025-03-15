@@ -284,7 +284,8 @@
         font-style: normal;
         text-align: center;
         font-size: 15px;
-        padding-top: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     /* Header 3 */
@@ -312,7 +313,7 @@
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
     .concertDate, .concertConductor, .concertRepertoire {
-        font-size: 9px;
+        font-size: 11px;
         line-height: 250%;
         font-weight: bolder;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
@@ -321,8 +322,9 @@
     /* Style of Concert Location */
     .concertLocation {
         font-style: italic;
-        font-size: 9px;
+        font-size: 11px;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
+        padding-top: 15px;
         padding-bottom: 20px;
     }
 
@@ -336,7 +338,7 @@
         padding-left: 20px;
         padding-right: 20px;
         line-height: 170%;
-        font-size: 9px;
+        font-size: 11px;
     }
 
     /* Footer styling */
