@@ -323,7 +323,7 @@
         font-size: 10px;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
     }
-
+    
     /* Style of Concert Description */
     .concertDescription {
         display: flow-root;
