@@ -217,7 +217,7 @@
         left: 0;
         right: 0;
         width: 100%;
-        height: 20px;
+        height: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -283,14 +283,12 @@
 
     /* Concert Boxes/Containers */
     .concertBox {
-        display: flex;
         justify-content: center;
         align-items: center;
         border-style: double;
         border-color: goldenrod;
         margin: 0px;
         padding: 10px;
-        height: 100vh;
     }
 
     /* General Style of Concert Info */
