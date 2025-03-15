@@ -237,7 +237,6 @@
 
     /* Links Inside Nav Bar */
     nav a {
-        width: 100%;
         color: black;
         padding: 10px 16px;
         text-decoration: none;
@@ -287,7 +286,7 @@
         padding-top: 10px;
         padding-bottom: 15px;
     }
-    
+
     /* Header 3 */
     h3 {
         text-shadow: 1px 1px 10px goldenrod, 1px 1px 10px goldenrod;
