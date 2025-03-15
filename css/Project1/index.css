@@ -29,6 +29,7 @@
         height: 2px;
         background-color: goldenrod;
         width: 80%;
+        margin: auto;
     }
 
     /* Nav Bar */
@@ -178,18 +179,18 @@
 
 /* Responsive to Small Screens */
 @media only screen and (max-width: 400px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
         font-family: Verdana, Geneva, Tahoma;
-        overflow-x: hidden;
+        overflow-x: clip;
     
     }
 
     /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
     html {
         scroll-behavior: smooth;    
-        scroll-padding-top: 30px;
+        scroll-padding-top: 10px;
     }
 
     /* Body Styles */
@@ -216,7 +217,7 @@
         height: 2px;
         background-color: goldenrod;
         width: 80%;
-        align-items: center;
+        margin: auto;
     }
 
     /* Nav Bar */
