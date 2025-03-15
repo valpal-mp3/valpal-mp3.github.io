@@ -237,7 +237,6 @@
 
     /* Style the links inside the navigation bar */
     nav a {
-        width: 100%;
         color: black;
         padding: 10px 16px;
         text-decoration: none;
