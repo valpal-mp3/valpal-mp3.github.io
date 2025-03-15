@@ -51,9 +51,9 @@
     nav a {
         width: 100%;
         color: black;
-        padding: 18px 18px;
+        padding: 13px 12px;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
         display: inline-block;
         list-style: none;
@@ -79,18 +79,18 @@
     /* Header 1 */
     h1 {
         color: goldenrod;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        text-shadow: 1px 1px 15px #fff, 1px 1px 15px #ccc;
         font-family: Verdana, Geneva, Tahoma;
         font-weight: bolder;
         font-style: normal;
         text-align: center;
-        font-size: 70px;
+        font-size: 80px;
     }
 
     /* Header 2 */
     h2 {
         color: goldenrod;
-        text-shadow: 1px 1px 8px #fff, 1px 1px 8px #ccc;
+        text-shadow: 1px 1px 13px #fff, 1px 1px 13px #ccc;
         font-family: Verdana, Geneva, Tahoma;
         font-weight: normal;
         font-style: normal;
