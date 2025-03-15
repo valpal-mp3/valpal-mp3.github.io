@@ -243,9 +243,9 @@
         text-decoration: none;
         font-size: 6px;
         text-align: center;
-        /* display: inline-block; */
+        display: inline-block;
         list-style: none;
-        justify-content: flex-start;
+        justify-content: center;
         transition: background-color 0.3s ease, color 0.3s ease;
         position: fixed;
         font-family: Verdana, Geneva, Tahoma;
@@ -301,7 +301,7 @@
     .concertBox {
         border-style: double;
         border-color: goldenrod;
-        margin: 20px;
+        margin: 15px;
         padding: 10px;
     }
 
