@@ -178,6 +178,13 @@
 
 /* Responsive to Small Screens */
 @media only screen and (max-width: 400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma;
+        overflow-x: hidden;
+    
+    }
     /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
     html {
         scroll-behavior: smooth;    
