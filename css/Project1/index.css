@@ -47,7 +47,7 @@
         box-shadow: white 0px 5px 15px 0px;
     }
 
-    /* Style the links inside the navigation bar */
+    /* Links Inside Nav Bar */
     nav a {
         width: 100%;
         color: black;
@@ -64,13 +64,13 @@
         text-shadow: 1px 1px 10px white;
     }
 
-    /* Change the color of links on hover */
+    /* Change Color of Links when Hovered */
     nav a:hover {
         background-color: #ddd;
         color: black;
     }
 
-    /* Add a color to the active/current link */
+    /* Color to Active Link */
     nav a:active {
         background-color: darkgoldenrod;
         color: black;
@@ -235,7 +235,7 @@
         box-shadow: white 0px 5px 15px 0px;
     }
 
-    /* Style the links inside the navigation bar */
+    /* Links Inside Nav Bar */
     nav a {
         width: 100%;
         color: black;
@@ -252,13 +252,13 @@
         text-shadow: 1px 1px 10px white;
     }
     
-    /* Change the color of links on hover */
+    /* Change Color of Links when Hovered */
     nav a:hover {
         background-color: #ddd;
         color: black;
     }
 
-    /* Add a color to the active/current link */
+    /* Color to Active Link */
     nav a:active {
         background-color: darkgoldenrod;
         color: black;
@@ -344,7 +344,6 @@
         font-size: 9.5px;
     }
 
-    /* Footer styling */
     .footer {
         color: white;
         text-align: center;
