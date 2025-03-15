@@ -244,7 +244,7 @@
         text-decoration: none;
         font-size: 5px;
         text-align: center;
-        display: flex;
+        display: inline-block;
         list-style: none;
         justify-content: flex-start;
         transition: background-color 0.3s ease, color 0.3s ease;
