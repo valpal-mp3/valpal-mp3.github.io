@@ -256,6 +256,7 @@
     nav a:hover {
         background-color: #ddd;
         color: black;
+        height: 20px;
     }
 
     /* Add a color to the active/current link */
@@ -267,7 +268,7 @@
     /* Header 1 */
     h1 {
         color: goldenrod;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        text-shadow: 1px 1px 1px #fff, 1px 1px 1px #ccc;
         font-family: Verdana, Geneva, Tahoma;
         font-weight: bold;
         font-style: normal;
@@ -278,7 +279,7 @@
     /* Header 2 */
     h2 {
         color: goldenrod;
-        text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+        text-shadow: 1px 1px 1px #fff, 1px 1px 1px #ccc;
         font-family: Verdana, Geneva, Tahoma;
         font-weight: normal;
         font-style: normal;
@@ -313,7 +314,7 @@
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
     .concertDate, .concertConductor, .concertRepertoire {
-        font-size: 11px;
+        font-size: 14px;
         line-height: 250%;
         font-weight: bolder;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
@@ -322,7 +323,7 @@
     /* Style of Concert Location */
     .concertLocation {
         font-style: italic;
-        font-size: 11px;
+        font-size: 14px;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
         padding-top: 15px;
         padding-bottom: 20px;
@@ -338,7 +339,7 @@
         padding-left: 20px;
         padding-right: 20px;
         line-height: 170%;
-        font-size: 11px;
+        font-size: 14px;
     }
 
     /* Footer styling */
