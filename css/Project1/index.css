@@ -279,7 +279,7 @@
     /* Header 2 */
     h2 {
         color: goldenrod;
-        text-shadow: 1px 1px 3px #fff, 1px 1px 3px #ccc;
+        text-shadow: 0.5px 0.5px 4px #fff, 0.5px 0.5px 4px #ccc;
         font-family: Verdana, Geneva, Tahoma;
         font-weight: normal;
         font-style: normal;
@@ -342,7 +342,7 @@
         padding-left: 10px;
         padding-right: 10px;
         line-height: 170%;
-        font-size: 9.5px;
+        font-size: 12px;
     }
 
     .footer {
