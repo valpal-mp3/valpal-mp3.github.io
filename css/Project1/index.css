@@ -190,7 +190,7 @@
     /* Smooth Scrolling of Nav Bar and Adding Padding to Content/Nav Bar */
     html {
         scroll-behavior: smooth;    
-        scroll-padding-top: 10px;
+        scroll-padding-top: 15px;
     }
 
     /* Body Styles */
@@ -283,7 +283,7 @@
         font-weight: normal;
         font-style: normal;
         text-align: center;
-        font-size: 35px;
+        font-size: 20px;
     }
 
     /* Header 3 */
@@ -311,7 +311,7 @@
 
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
     .concertDate, .concertConductor, .concertRepertoire {
-        font-size: 20px;
+        font-size: 10px;
         line-height: 200%;
         font-weight: bolder;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
@@ -320,10 +320,10 @@
     /* Style of Concert Location */
     .concertLocation {
         font-style: italic;
-        font-size: 20px;
+        font-size: 10px;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
     }
-    
+
     /* Style of Concert Description */
     .concertDescription {
         display: flow-root;
