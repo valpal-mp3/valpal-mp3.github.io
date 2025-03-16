@@ -150,6 +150,13 @@
         -webkit-text-stroke: 0.3px rgb(200, 136, 10);
     }
 
+    /* Style of Concert Note */
+    .concertNote {
+        font-style: italic;
+        font-size: 16px;
+        -webkit-text-stroke: 0.6px goldenrod;
+    }
+
     /* Footer styling */
     .footer {
         color: white;
@@ -347,6 +354,13 @@
         line-height: 170%;
         font-size: 12px;
         -webkit-text-stroke: 0.3px rgb(200, 136, 10);
+    }
+
+    /* Style of Concert Note */
+    .concertNote {
+    font-style: italic;
+    font-size: 12px;
+    -webkit-text-stroke: 0.3px goldenrod;
     }
 
     .footer {
