@@ -124,7 +124,7 @@
     /* Style of Concert Date, Concert Conductor, and Concert Repertoire */
     .concertDate, .concertConductor, .concertRepertoire {
         font-size: 20px;
-        line-height: 150%;
+        line-height: 140%;
         font-weight: bolder;
         -webkit-text-stroke: 1px rgb(200, 136, 10);
     }
@@ -140,12 +140,14 @@
     .concertDescription {
         display: flow-root;
         flex-direction: column;
+        font-weight: bold;
         margin: 10px;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 20px;
         padding-right: 20px;
         line-height: 170%;
+        -webkit-text-stroke: 0.3px rgb(200, 136, 10);
     }
 
     /* Footer styling */
@@ -336,6 +338,7 @@
     .concertDescription {
         display: flow-root;
         flex-direction: column;
+        font-weight: bold;
         margin: 0;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -343,6 +346,7 @@
         padding-right: 10px;
         line-height: 170%;
         font-size: 12px;
+        -webkit-text-stroke: 0.3px rgb(200, 136, 10);
     }
 
     .footer {
