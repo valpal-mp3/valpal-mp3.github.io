@@ -268,7 +268,7 @@
         border: solid;
         margin-left: 5px;
         width: fit-content;
-        position: left;
+        position: relative;
     }
 
     /* Nav Bar Content */
