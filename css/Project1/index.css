@@ -237,7 +237,7 @@
     /* Nav Bar */
     .concertMenu {
         left: 0;
-        position: fixed, sticky;
+        position: fixed;
         display: inline-block;
         padding: 0;
         background-color: transparent;
@@ -264,7 +264,7 @@
         color: goldenrod;
         text-shadow: white 1px 1px 10px;
         display: none;
-        position: sticky;
+        position: fixed;
         font-size: 10px;
         width: fit-content;
         z-index: 60;
@@ -274,6 +274,7 @@
     .concertMenuContent a {
         background-color: white;
         color: goldenrod;
+        text-shadow: white 1px 1px 10px;
         font-family: Verdana, Geneva, Tahoma;
         margin-left: auto;
         text-decoration: none;
