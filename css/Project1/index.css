@@ -275,7 +275,7 @@
     /* Nav Bar Content */
     .concertMenuContent {
         display: none;
-        position: fixed;
+        position: absolute;
         font-size: 10px;
         width: fit-content;
         z-index: 60;
