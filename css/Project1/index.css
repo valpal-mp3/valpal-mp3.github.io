@@ -236,13 +236,12 @@
     
     /* Nav Bar */
     nav {
-        background-color: black;
+        background-color: transparent;
         position: sticky;
         top: 0;
         width: 100%;
         height: 30px;
         z-index: 1000;
-        box-shadow: white 0px 3px 10px 0px;
         display: flex; 
         justify-content: space-between; 
         align-items: center; 
@@ -255,6 +254,7 @@
         background-color: transparent;
         color: white;
         padding: 1px;
+        padding-top: 5px;
     }
 
     /* Nav Bar Button */
