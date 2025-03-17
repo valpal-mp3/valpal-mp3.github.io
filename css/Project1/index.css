@@ -269,6 +269,7 @@
         margin-left: 5px;
         width: fit-content;
         position: relative;
+        left: 0;
     }
 
     /* Nav Bar Content */
