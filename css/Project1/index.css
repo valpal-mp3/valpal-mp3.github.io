@@ -237,7 +237,7 @@
     /* Nav Bar */
     .concertMenu {
         left: 0;
-        position: fixed;
+        position: sticky;
         display: inline-block;
         margin: 10px;
         padding: 0;
@@ -255,6 +255,7 @@
         border: solid;
         margin-left: 5px;
         width: fit-content;
+        position: sticky;
     }
 
     /* Nav Bar Content */
@@ -262,7 +263,7 @@
         background-color: white;
         color: goldenrod;
         display: none;
-        position: absolute;
+        position: sticky;
         font-size: 10px;
         width: fit-content;
         z-index: 100;
@@ -277,6 +278,7 @@
         text-decoration: none;
         display: block;
         padding: 5px;
+        position: sticky;
     }
     
     /* Color to Active Link */
