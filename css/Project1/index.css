@@ -268,14 +268,14 @@
         border: solid;
         margin-left: 5px;
         width: fit-content;
-        position: fixed;
+        position: relative;
         left: 0;
     }
 
     /* Nav Bar Content */
     .concertMenuContent {
         display: none;
-        position: absolute;
+        position: fixed;
         font-size: 10px;
         width: fit-content;
         z-index: 60;
