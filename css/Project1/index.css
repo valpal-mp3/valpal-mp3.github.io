@@ -251,7 +251,7 @@
         position: sticky;
         left: 0;
         top: 0;
-        display: inline-block;
+        display: right;
         padding: 1px;
         background-color: transparent;
         color: white;
