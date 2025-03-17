@@ -72,7 +72,7 @@
         background-color: #ddd;
         color: black;
     }
-
+    
     /* Color to Active Link */
     .concertMenuContent a:active {
         background-color: goldenrod;
