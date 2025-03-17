@@ -236,7 +236,7 @@
     
     /* Nav Bar */
     nav {
-        background-color: transparent;
+        background-color: black;
         position: sticky;
         top: 0;
         width: 100%;
