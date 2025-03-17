@@ -294,8 +294,16 @@
         padding: 5px;
         position: sticky;
     }
-
-
+    
+    /* Box for Active Link */
+    .concertMenu:hover .concertMenuContent {
+        display: block;
+    }
+    
+    /* Color to Active Link */
+    .concertMenu:hover .concertDropDown {
+        text-shadow: white 1px 1px 10px;
+    }
 
     /* Header 1 */
     h1 {
