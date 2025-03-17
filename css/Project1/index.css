@@ -241,6 +241,7 @@
         position: fixed;
         display: inline-block;
         margin: 10px;
+        padding-bottom: 40px;
     }
 
     /* Nav Bar Button */
@@ -249,7 +250,7 @@
         color: goldenrod;
         padding-top: 5px;
         padding-bottom: 5px;
-        font-size: 20px;
+        font-size: 15px;
         border: double;
         margin-right: 5px;
     }
@@ -259,7 +260,7 @@
         background-color: transparent;
         display: none;
         position: absolute;
-        font-size: 20px;
+        font-size: 15px;
         width: fit-content;
     }
     
@@ -267,8 +268,7 @@
     .concertMenuContent a {
         background-color: transparent;
         color: white;
-        padding-right: 50px;
-        margin-right: auto;
+        margin-left: auto;
         text-decoration: none;
         display: block;
     }
@@ -280,13 +280,13 @@
     
     /* Color to Active Link */
     .concertMenu:hover .concertMenuContent {
-        display: flow-root;
+        display: block;
     }
     
     /* Color to Active Link */
     .concertMenu:hover .concertDropDown {
         text-shadow: white 1px 1px 10px;
-    }  
+    }
 
     /* Header 1 */
     h1 {
