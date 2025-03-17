@@ -239,7 +239,7 @@
         left: 0;
         position: fixed;
         display: inline-block;
-        padding: 0;
+        padding: 15px;
         background-color: transparent;
         color: white;
     }
@@ -260,9 +260,6 @@
 
     /* Nav Bar Content */
     .concertMenuContent {
-        background-color: black;
-        color: goldenrod;
-        text-shadow: white 1px 1px 10px;
         display: none;
         position: fixed;
         font-size: 10px;
