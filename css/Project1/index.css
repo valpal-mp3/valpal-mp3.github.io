@@ -38,7 +38,7 @@
 
     /* Nav Bar */
     .concertMenuContent {
-        background-color: goldenrod;
+        background-color: darkgoldenrod;
         position: fixed;
         top: 0;
         left: 0;
@@ -69,13 +69,13 @@
 
     /* Change Color of Links when Hovered */
     .concertMenuContent a:hover {
-        background-color: #ddd;
+        background-color: white;
         color: black;
     }
 
     /* Color to Active Link */
     .concertMenuContent a:active {
-        background-color: darkgoldenrod;
+        background-color: goldenrod;
         color: black;
     }
 
@@ -237,7 +237,7 @@
     
     /* Nav Bar */
     nav {
-        background-color: goldenrod;
+        background-color: darkgoldenrod;
         position: sticky;
         top: 0;
         width: 100%;
