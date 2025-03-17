@@ -247,7 +247,8 @@
     /* Nav Bar */
     .concertMenu {
         left: 0;
-        position: fixed;
+        position: sticky;
+        top: 0;
         display: inline-block;
         padding: 15px;
         background-color: transparent;
@@ -271,9 +272,10 @@
     /* Nav Bar Content */
     .concertMenuContent {
         display: none;
-        position: fixed;
+        position: absolute;
         font-size: 10px;
         width: fit-content;
+        top: 50px;
         z-index: 60;
     }
     
