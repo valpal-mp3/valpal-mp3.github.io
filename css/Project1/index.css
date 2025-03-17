@@ -240,7 +240,7 @@
         position: fixed;
         display: inline-block;
         margin: 10px;
-        padding-bottom: 40px;
+        padding: 0;
     }
 
     /* Nav Bar Button */
@@ -255,6 +255,10 @@
         margin-right: 5px;
     }
     
+    .concertMenuContent.show {
+        display: block;
+    }
+
     /* Nav Bar Content */
     .concertMenuContent {
         background-color: white;
