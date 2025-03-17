@@ -43,7 +43,6 @@
         top: 0;
         left: 0;
         right: 0;
-        width: 100%;
         height: 50px;
         display: flex;
         justify-content: center;
@@ -246,10 +245,10 @@
 
     /* Nav Bar Button */
     .concertDropDown {
-        background-color: transparent;
-        color: goldenrod;
+        background-color: goldenrod;
+        color: white;
         padding-top: 5px;
-        padding-bottom: 5px;
+        padding-bottom: 40px;
         font-size: 15px;
         border: double;
         margin-right: 5px;
@@ -257,7 +256,8 @@
     
     /* Nav Bar Content */
     .concertMenuContent {
-        background-color: transparent;
+        background-color: white;
+        color: goldenrod;
         display: none;
         position: absolute;
         font-size: 15px;
