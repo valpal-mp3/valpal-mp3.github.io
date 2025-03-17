@@ -272,10 +272,9 @@
     /* Nav Bar Content */
     .concertMenuContent {
         display: none;
-        position: absolute;
+        position: fixed;
         font-size: 10px;
         width: fit-content;
-        top: 50px;
         z-index: 60;
     }
     
@@ -290,6 +289,7 @@
         display: block;
         padding: 5px;
         position: sticky;
+        top: 0;
     }
     
     /* Color to Active Link */
