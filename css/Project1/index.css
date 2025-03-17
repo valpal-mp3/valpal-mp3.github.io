@@ -247,8 +247,9 @@
     .concertDropDown {
         background-color: goldenrod;
         color: white;
+        font-family: Verdana, Geneva, Tahoma;
         padding-top: 5px;
-        padding-bottom: 40px;
+        padding-bottom: 5px;
         font-size: 15px;
         border: double;
         margin-right: 5px;
@@ -257,7 +258,6 @@
     /* Nav Bar Content */
     .concertMenuContent {
         background-color: white;
-        color: goldenrod;
         display: none;
         position: absolute;
         font-size: 15px;
@@ -267,7 +267,8 @@
     /* Links Inside Nav Bar */
     .concertMenuContent a {
         background-color: transparent;
-        color: white;
+        color: goldenrod;
+        font-family: Verdana, Geneva, Tahoma;
         margin-left: auto;
         text-decoration: none;
         display: block;
