@@ -235,6 +235,21 @@
     }
     
     /* Nav Bar */
+    nav {
+        background-color: goldenrod;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: white 0px 5px 15px 0px;
+    }
+
+    /* Nav Bar */
     .concertMenu {
         left: 0;
         position: fixed;
@@ -257,7 +272,7 @@
         width: fit-content;
         position: left;
     }
-
+    
     /* Nav Bar Content */
     .concertMenuContent {
         display: none;
