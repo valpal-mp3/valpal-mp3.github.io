@@ -267,21 +267,15 @@
         margin-left: 5px;
         width: fit-content;
         position: left;
-        display: inline-block;
     }
 
     /* Nav Bar Content */
     .concertMenuContent {
-        display: none; 
+        display: none;
         position: absolute;
-        top: 100%; 
-        left: 0;
-        background-color: white;
-        color: goldenrod;
         font-size: 10px;
-        width: 150px;  
-        z-index: 1000; 
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        width: fit-content;
+        z-index: 60;
     }
     
     /* Links Inside Nav Bar */
@@ -294,6 +288,7 @@
         text-decoration: none;
         display: block;
         padding: 5px;
+        position: sticky;
     }
     
     /* Color to Active Link */
