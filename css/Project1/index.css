@@ -236,10 +236,10 @@
     
     /* Nav Bar */
     nav {
-        background-color: goldenrod;
+        background-color: transparent;
         position: sticky;
         top: 0;
-        width: 25%;
+        width: 100%;
         height: 30px;
         z-index: 1000;
         box-shadow: white 0px 3px 10px 0px;
