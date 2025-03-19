@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .change-color {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <p id="textChange">Random text.</p>
+  <button id="changeTextBtn">Change Text</button>
+
+  <div class="change-color" id="colorBox"></div>
+  <button id="changeColorBtn">Change Color</button>
+
+  <script>
+    document.getElementById('changeTextBtn').addEventListener('click', function() {
+      document.getElementById('textChange').innerText = 'Random text has changed!';
+    });
+
+    document.getElementById('changeColorBtn').addEventListener('click', function() {
+      const colorBox = document.getElementById('colorBox');
+      const colors = ['lightblue', 'lightcoral', 'lightgreen', 'lightyellow'];
+      const randomColor = colors[Math.floor(Math.random() * colors.length)];
+      colorBox.style.backgroundColor = randomColor;
+    });
+  </script>
+</body>
+</html>
