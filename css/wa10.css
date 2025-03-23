@@ -1,0 +1,70 @@
+h1 {
+    color: goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-stroke: 3px rgb(200, 136, 10);
+}
+
+body {
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0 3px white;
+    align-items: center;
+}
+
+div {
+    margin-bottom: 40px;
+}
+
+input[type="text"] {
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0.5px solid black;
+    padding: 10px;
+    width: 175px;
+}
+
+input[type = "radio"] {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    accent-color: black;
+}
+
+.randomize {
+    background-color: rgb(109, 8, 109);
+    color: goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 20px goldenrod;
+    padding: 18px 28px;
+}
+
+.story {
+    background: rgb(109, 8, 109);
+    color: goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px goldenrod;
+    padding: 25px;
+    width: 1000px;
+}
+
+p {
+    color: goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
