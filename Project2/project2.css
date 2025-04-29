@@ -1,0 +1,52 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #f2f2f2;
+}
+
+.input-box.error {
+    border: 2px solid red;
+    background-color: #ffdddd;
+}
+
+#message {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 22px;
+    color: red;
+}
+
+#restartBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restartBtn:hover {
+    background-color: #2980b9;
+}
