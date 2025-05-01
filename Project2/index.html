@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project 2</title>
-  <link rel="stylesheet" href="/Project2/project2.css">
+  <link rel="stylesheet" href="project2.css">
 </head>
 <body>
   <h1>Please Enter Your Phone Number</h1>
+
   <!-- Timer -->
   <div id="timer">Time Left: <span id="timeLeft">30</span> seconds</div>
+
+  <!-- Input Boxes -->
   <div class="input-container" id="inputContainer">
-    <!-- Number boxes -->
-    <input type="text" class="input-box" maxlength="1">
-    <input type="text" class="input-box" maxlength="1">
-    <input type="text" class="input-box" maxlength="1">
+    <div class="input-box" contenteditable="true"></div>
+    <div class="input-box" contenteditable="true"></div>
+    <div class="input-box" contenteditable="true"></div>
     <p>-</p>
-    <input type="text" class="input-box" maxlength="1">
-    <input type="text" class="input-box" maxlength="1">
-    <input type="text" class="input-box" maxlength="1">
+    <div class="input-box" contenteditable="true"></div>
+    <div class="input-box" contenteditable="true"></div>
+    <div class="input-box" contenteditable="true"></div>
     <p>-</p>
-    <input type="text" class="input-box" maxlength="1">
-    <input type="text" class="input-box" maxlength="1">
-    <input type="text" class="input-box" maxlength="1">
-    <input type="text" class="input-box" maxlength="1">
+    <div class="input-box" contenteditable="true"></div>
+    <div class="input-box" contenteditable="true"></div>
+    <div class="input-box" contenteditable="true"></div>
+    <div class="input-box" contenteditable="true"></div>
   </div>
 
-  <!-- Restart Button Message -->
+  <!-- Message and Buttons -->
   <p id="message"></p>
-  <!-- Restart Button -->
+  <button id="submitBtn">Submit</button>
   <button id="restartBtn">Restart</button>
-
-  <script src="/Project2/project2.js"></script>
+  
+  <script src="project2.js"></script>
 </body>
 </html>
